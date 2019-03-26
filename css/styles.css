@@ -1,13 +1,29 @@
 #baby-showing {
   display: none;
-};
-
+}
+#img {
+  display: none;
+}
 
 .clickable:hover {
   text-decoration: underline;
 }
 
 .clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+
+#more-pics-showing {
+  display: none;
+}
+
+.clickableToo:hover {
+  text-decoration: underline;
+}
+
+.clickableToo {
   cursor: pointer;
   color: #0088cc;
 }
